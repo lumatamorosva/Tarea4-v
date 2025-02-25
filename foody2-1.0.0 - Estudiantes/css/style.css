@@ -1,0 +1,320 @@
+/********** Template CSS **********/
+:root {
+    --primary: #3CB815;
+    --secondary: #F65005;
+    --light: #F7F8FC;
+    --dark: #111111;
+}
+
+
+/*** Section Header ***/
+.section-header {
+    position: relative;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.section-header::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary);
+}
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 2px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--secondary);
+}
+
+.section-header.text-start::before,
+.section-header.text-start::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.sobrecarousel {
+    position: static;
+}
+
+.car {
+    max-width: 100%;
+}
+
+.carousel-caption {
+    left: 8%;
+    right: auto;
+    top: 20%;
+    bottom: auto;
+    max-width: 50%;
+}
+
+.float-end {
+    justify-items: right;
+}
+
+.buttonlike {
+    background-color: rgb(4, 198, 4);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    display: inline;
+    position: relative;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.buttonlike1 {
+    background-color: rgba(255, 101, 24, 0.999);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    display: inline;
+    font-size: 12px;
+}
+
+.down1 {
+    margin-top: 90px;
+}
+.down2 {
+    margin-top: 90px;
+    margin-left: 160px;
+}
+
+.sennor {
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    margin: 70px;
+}
+
+.info {
+    margin: 10px;
+    font-size: smaller;
+
+}
+
+.caracter {
+    background-color: #d5dbde;
+    padding-top: 25px;
+    justify-items: center;
+    text-align: center;
+}
+
+.caracter p {
+    font-size: 12px;
+}
+
+.chart1 {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.masinfo {
+    border: #3CB815 solid;
+    border-radius: 30px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.Productos1 p{
+    font-size: 12px;
+}
+
+.element1 {
+    border: solid #3CB815;
+    font-size: 12px;
+    padding: 5px;
+    display: inline;
+    margin: 8px;
+    max-height: 35px;
+}
+
+.element1 a {
+    color: black;
+}
+
+.element1:hover {
+    background-color: #3CB815;
+    color: #F7F8FC;
+} 
+
+.element1 a:hover {
+    color: #F7F8FC;
+} 
+
+.cont1 {
+    top: auto;
+    bottom: auto;
+}
+
+.cuadroprod {
+    background-color: white;
+    display: inline;
+}
+
+.Productos1 {
+    background-color: #f1f1f1;
+}
+
+.but1 {
+    border: rgb(196, 196, 196) solid;
+    border-width: 0.05px;
+}
+
+.imgprod {
+    width: 100%;
+}
+
+.cont3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+
+.nombre {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin: 5px;
+    color: #111111;
+    margin: 20px;
+}
+
+.precio {
+    color: #3CB815;
+    width: 100%;
+}
+
+.buttonprod {
+    margin: 5px;
+    font-size: smaller;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.visita {
+    background-color: #3CB815;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.visita p {
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.visita h1 {
+   color: white;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.visita a {
+    background-color: rgba(255, 101, 24, 0.999);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    display: inline;
+    font-size: 12px;
+}
+
+.align-middle {
+    display: flex;
+    align-items: center;
+}
+
+.nuestro p {
+    font-size: 12px;
+}
+
+.nuestro .section-header {
+    display: block;
+    width: 100%;
+}
+
+.nuestro img {
+    width: 100%;
+}
+
+.nuestro a {
+    color: black;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nuestro .col-4 {
+    margin: 3px;
+    background-color: #d5dbde;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.footer h4 {
+    color: white;
+    font-size: 18px;
+}
+
+.footer a {
+    color: white;
+    content: "\a";
+    white-space: pre;
+    font-size: 12px;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+    .productos .col-4 {
+        width: 90%;
+    }
+
+    .nuestro .col-3 {
+        width: 90%;
+    }
+
+    .footer .col-3 {
+        width: 90%;
+    }
+
+    .footer .col-4 {
+        width: 90%;
+    }
+
+    .footer .btn {
+        display: block;
+        text-align: left;
+    }
+}
